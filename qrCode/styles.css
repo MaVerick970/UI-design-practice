@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    background-color: #d5e1ef;
+    font-family: 'Outfit';
+}
+
+body p {
+    margin: 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;  
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 20rem ;
+    height: 31rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 1.6rem 1.6rem  rgba(0,0,0,0.0477);
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem 2.5rem 1rem;
+   
+}
+
+.qrCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qrCard img {
+    width: 18rem ;
+    height: 18rem;
+    border-radius: 0.625rem;
+}
+
+
+.description {
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    height: 8.19rem;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.description p:first-child {
+    font-size: 1.375rem;
+    line-height: 120%;
+    letter-spacing: 0px;
+    font-weight: bold;
+    color: #1F314F
+}
+
+.description p:last-child {
+    font-size: 0.94rem;
+    line-height: 140%;
+    letter-spacing: 0.0125rem;
+    color: #68778D
+}
